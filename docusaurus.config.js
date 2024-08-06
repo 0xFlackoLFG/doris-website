@@ -312,7 +312,8 @@ const config = {
                         label: '使用指南',
                         position: 'left',
                         to: '/docs/install/source-install/compilation-with-docker',
-                        activeBaseRegex: 'summary|install|db-connect|table-design|data-operate|query|lakehouse|compute-storage-decoupled|admin-manual|practical-guide|sql-manual',
+                        activeBaseRegex:
+                            'summary|install|db-connect|table-design|data-operate|query|lakehouse|compute-storage-decoupled|admin-manual|practical-guide|sql-manual',
                     },
                     {
                         label: '性能测试',
@@ -356,32 +357,38 @@ const config = {
                     {
                         label: 'Getting Started',
                         position: 'left',
-                        to: '/docs/gettingStarted/what-is-new',
+                        type: 'doc',
+                        docId: 'gettingStarted/what-is-new',
                         activeBaseRegex: 'what-is-new|what-is-apache-doris|quick-start|tutorials',
                     },
                     {
                         label: 'Guides',
                         position: 'left',
-                        to: '/docs/install/source-install/compilation-with-docker',
+                        type: 'doc',
+                        docId: 'install/source-install/compilation-with-docker',
                         // activeBaseRegex: 'docs/(dev|install|2.1|2.0|1.2)|quick-start',
-                        activeBaseRegex: 'summary|install|db-connect|table-design|data-operate|query|lakehouse|compute-storage-decoupled|admin-manual|practical-guide|sql-manual'
+                        activeBaseRegex:
+                            'summary|install|db-connect|table-design|data-operate|query|lakehouse|compute-storage-decoupled|admin-manual|practical-guide|sql-manual',
                     },
                     {
                         label: 'Benchmark',
                         position: 'left',
-                        to: '/docs/benchmark/ssb',
+                        type: 'doc',
+                        docId: 'benchmark/ssb',
                         activeBaseRegex: 'benchmark',
                     },
                     {
                         label: 'Ecosystem',
                         position: 'left',
-                        to: '/docs/ecosystem/spark-doris-connector',
+                        type: 'doc',
+                        docId: 'ecosystem/spark-doris-connector',
                         activeBaseRegex: 'ecosystem',
                     },
                     {
                         label: 'FAQ',
                         position: 'left',
-                        to: '/docs/faq/install-faq',
+                        type: 'doc',
+                        docId: 'faq/install-faq',
                         activeBaseRegex: 'faq',
                     },
                     {
